@@ -100,7 +100,7 @@
             display-name = "Nav";
             bindings = <
            &kp C_PAUSE    &kp C_PREVIOUS  &kp UP_ARROW  &kp C_NEXT       &kp LBRC    &kp RBRC  &kp NUMBER_7       &kp NUMBER_8       &kp NUMBER_9        &kp NUMBER_0
-           &kp PAGE_UP    &kp LEFT        &kp DOWN      &kp RIGHT        &kp LBKT    &kp RBKT  &hm RGUI NUMBER_4  &hm RALT NUMBER_5  &hm RCTRL NUMBER_6  &hm RSHIFT MINUS
+           &kp PAGE_UP    &kp LEFT        &kp DOWN      &kp RIGHT        &kp LBKT    &kp RBKT  &hm RIGHT_GUI NUMBER_4  &hm RALT NUMBER_5  &hm RCTRL NUMBER_6  &hm RSHIFT MINUS
 &kp GRAVE  &kp PAGE_DOWN  &kp K_MUTE      &kp C_VOL_DN  &kp C_VOLUME_UP  &kp LPAR    &kp RPAR  &kp NUMBER_1       &kp NUMBER_2       &kp NUMBER_3        &kp NON_US_BACKSLASH  &kp EQUAL
                                           &trans        &trans           &trans      &trans    &trans             &trans
             >;
@@ -110,7 +110,7 @@
             display-name = "Sym";
             bindings = <
         &kp EXCL  &kp AT  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-        &kp F2    &kp F3  &kp F4            &kp F5            &kp F6         &kp F7     &kp F8         &kp F9           &kp F10   &kp F11
+        &hm LEFT_SHIFT F2 &hm LEFT_CONTROL F3  &hm LEFT_ALT F4 &hm LEFT_GUI F5 &kp F6 &kp F7     &hm RGUI F8         &hm RALT F9           &hm RCTRL F10   &hm RSHIFT F11
 &kp F1  &trans    &trans  &trans            &trans            &trans         &trans     &trans         &trans           &trans    &trans   &kp F12
                           &trans            &trans            &trans         &trans     &trans         &trans
             >;
